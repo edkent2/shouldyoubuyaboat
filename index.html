@@ -60,12 +60,16 @@
                 no: "Do you live near water?"
             },
             'Do you live near water?': {
-                yes: "Can you afford a boat?",
+                yes: "Do you know how to swim?",
                 no: "Boats are useless if you don’t live near water. Do you own a pool big enough for one?"
             },
             'Boats are useless if you don’t live near water. Do you own a pool big enough for one?': {
                 yes: "That’s ridiculous. No, you should not buy a boat.",
                 no: "Right. You should not buy a boat."
+            },
+            'Do you know how to swim?': {
+                yes: "Can you afford a boat?",
+                no: "You should learn to swim before you buy a boat. No, you should not buy a boat."
             },
             'Can you afford a boat?': {
                 yes: "Can your car tow 3,500+ lbs?",
@@ -109,11 +113,35 @@
             },
             "What about golf?": {
                 yes: "Good choice, don't buy a boat.",
+                no: "Do you own a dock?"
+            },
+            "Do you own a dock?": {
+                yes: "Are there other boats at your dock you could use?",
+                no: "Where do you plan to keep the boat? Do you have a large driveway?"
+            },
+            "Are there other boats at your dock you could use?": {
+                yes: "Then use one of those. No, you should not buy a boat.",
                 no: "Are you on track to save enough for retirement?"
             },
+            "Where do you plan to keep the boat? Do you have a large driveway?": {
+                yes: "Do you have an HOA?",
+                no: "It doesn't appear that you have thought this through. No, you should not buy a boat."
+            },
+            "Do you have an HOA?": {
+                yes: "Are they okay with you having a boat in your driveway?",
+                no: "Are you on track to save enough for retirement?"
+            },
+            "Are they okay with you having a boat in your driveway?": {
+                yes: "Are you on track to save enough for retirement?",
+                no: "It doesn't appear that you have thought this through. No, you should not buy a boat."
+            },
             "Are you on track to save enough for retirement?": {
-                yes: "Okay, but do you think you could make friends with someone who owns a boat?",
+                yes: "Certainly there are other things you would like to do with your extra money?",
                 no: "Then no, you should not buy a boat."
+            },
+            "Certainly there are other things you would like to do with your extra money?": {
+                yes: "Good, go do that. No, you shuold not buy a baot.",
+                no: "Okay, but do you think you could make friends with someone who owns a boat?"
             },
             "Okay, but do you think you could make friends with someone who owns a boat?": {
                 yes: "Great, you should not buy a boat.",
@@ -137,7 +165,43 @@
             },
             "Do you think you could convince any of them to buy a boat?": {
                 yes: "Good. Then no, you should not buy a boat.",
-                no: "Fuck it, go buy a boat."
+                no: "Do you know ANYONE with a boat?"
+            },
+            "Do you know ANYONE with a boat?": {
+                yes: "Can you borrow their boat?",
+                no: "How about an inflatable kayak or windsurfer?"
+            },
+            "Great. Can you borrow their boat?": {
+                yes: "Great, borrow their boat. No, you should not buy a boat.",
+                no: "How about an inflatable kayak or windsurfer?"
+            },
+            "How about an inflatable kayak or windsurfer?": {
+                yes: "Very sensible. No, you should not buy an actual boat.",
+                no: "Have you considered the cost of gas for the boat?"
+            },
+            "Have you considered the cost of gas for the boat?": {
+                yes: "What about insurance?",
+                no: "You should go back and add up all of the additional costs of owning a boat. No, you should not buy a boat."
+            },
+            "What about insurance?": {
+                yes: "Are you buying a boat to go fishing?",
+                no: "You should go back and add up all of the additional costs of owning a boat. No, you should not buy a boat."
+            },
+            "Are you buying a boat to go fishing?": {
+                yes: "You can fish without a boat. Why don't you try that?",
+                no: "Have you considered the dangers of excess sun exposure?"
+            },
+            "You can fish without a boat. Why don't you try that?": {
+                yes: "Smart move. No, you should not buy a boat.",
+                no: "Have you considered the dangers of excess sun exposure?"
+            },
+            "Have you considered the dangers of excess sun exposure?": {
+                yes: "You really want a boat, don't you?",
+                no: "Unprotected exposure to the sun's ultraviolet (UV) rays can cause damage to the skin, eyes, and immune system. It can also cause cancer. No you should not buy a boat."
+                 },
+            "You really want a boat, don't you?": {
+                yes: "Well if you are still here, you probably aren't that sure. No, you should not buy a boat.",
+                no: "Then why are you still here? No, you should not buy a boat."
             }
         };
 
